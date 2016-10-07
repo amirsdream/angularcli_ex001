@@ -1,0 +1,18 @@
+<p>
+  test-component works!Hi, {{name}}
+</p>
+
+<div>
+  <section layout="row" layout-sm="column" layout-align="center center" layout-wrap>
+    <button md-raised-button class="md-raised">Button</button>
+    <button md-raised-button class="md-raised md-primary">Primary</button>
+    <button md-raised-button disabled="true" class="md-raised md-primary">Disabled</button>
+    <button md-raised-button class="md-raised md-warn">Warn</button>
+    <div class="label">Raised</div>
+  </section>
+  
+  <button (click)="printOk()">Print OK!</button>
+  <button (click)="printHello()">Print Hello</button>
+  <p>{{ok}}</p>
+  <p>{{hello}}</p>
+</div>
